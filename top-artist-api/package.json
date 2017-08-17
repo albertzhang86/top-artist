@@ -8,9 +8,17 @@
     "request-promise": "^4.2.1"
   },
   "scripts": {
-    "start": "nodemon ./app.js"
+    "start": "nodemon ./app.js",
+    "test": "gulp test"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "gulp": "^3.9.1",
+    "gulp-file": "^0.3.0",
+    "gulp-jasmine": "^2.4.0",
+    "gulp-load-plugins": "^1.2.4",
+    "jasmine-spec-reporter": "^2.7.0",
+    "nodemon": "^1.11.0",
+    "proxyquire": "^1.8.0",
+    "require-dir": "^0.3.0"
   }
 }
