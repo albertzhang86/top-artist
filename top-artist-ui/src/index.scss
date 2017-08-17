@@ -1,7 +1,22 @@
 @import "style/color.scss";
+@import "style/variable.scss";
 
 body {
-  background-color: $dark-blue;
-  color: #ffffff;
+  background-color: $light-grey;
   font-weight: normal;
+  color: $black;
+  .search-result-wrapper {
+    padding-top: $full-padding;
+    .search-result-container {
+      margin-left: 0;
+      margin-right: 0;
+      .result-item {
+        .thumbnail {
+          margin: auto;
+          max-width: $thumbnail-width;
+          height: auto;
+        }
+      }
+    }
+  }
 }

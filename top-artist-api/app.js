@@ -4,7 +4,7 @@ const _ = require('lodash');
 const router = require('./controllers/index');
 
 // route
-app.use('/api/v0', router);
+app.use('/api', router);
 
 // listener
 app.listen(3002, function() {

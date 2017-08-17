@@ -4,8 +4,11 @@
   "description": "node v8.2~",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "concurrently \"npm start --prefix top-artist-ui\" \"npm start --prefix top-artist-api\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
 }
