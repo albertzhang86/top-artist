@@ -1,13 +1,13 @@
-import { combineEpics } from 'redux-observable';
+import { combineReducers } from 'redux';
 import { routerReducer } from 'react-router-redux';
 
 import topAlbums from './topAlbums'
-import clearSearchResults from './clearSearchResults';
+import searchInFlight from './searchInFlight';
 import topArtists from './topArtists';
 
-export default combineEpics(
+export default combineReducers({
   topAlbums,
-  clearSearchResults,
+  searchInFlight,
   topArtists,
   routing: routerReducer
-);
+});

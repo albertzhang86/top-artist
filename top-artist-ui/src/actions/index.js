@@ -8,6 +8,7 @@ export function searchTopArtists(query) {
 }
 
 export function receiveArtists(response) {
+  console.log(response);
   return {
     type: actionTypes.RECEIVED_TOP_ARTISTS,
     topArtists: response.topartists
@@ -22,7 +23,7 @@ export function clearSearchResults() {
 
 export function requestTopAlbumByArtist(query) {
   return {
-    type: actionTypes.SEARCHED_TOP_ALBUMS,
+    type: actionTypes.REQUESTED_TOP_ALBUMS,
     query
   };
 }
