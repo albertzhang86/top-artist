@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopArtists renders correctly 1`] = `
+<div
+  className="search-result-wrapper"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12 form-group"
+    >
+      <input
+        className="form-control"
+        defaultValue="china"
+        onChange={[Function]}
+        placeholder="Enter Country"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="row search-result-container"
+  >
+    <div
+      className="col-xs-12"
+    >
+      <ul
+        className="list-group"
+      >
+        <li
+          className="list-group-item row"
+        >
+          <div
+            className="result-item row"
+          >
+            <div
+              className="col-xs-12 col-sm-4"
+            >
+              <a
+                className="thumbnail"
+                onClick={[Function]}
+                style={Object {}}
+              >
+                <img
+                  alt="top albums of ar1"
+                  src={undefined}
+                />
+              </a>
+            </div>
+            <div
+              className="col-xs-12 col-sm-8"
+            >
+              <h3>
+                ar1
+              </h3>
+              <p>
+                <strong>
+                  Listener: 
+                </strong>
+                2
+              </p>
+            </div>
+          </div>
+        </li>
+        <li
+          className="list-group-item row"
+        >
+          <div
+            className="result-item row"
+          >
+            <div
+              className="col-xs-12 col-sm-4"
+            >
+              <a
+                className="thumbnail"
+                onClick={[Function]}
+                style={Object {}}
+              >
+                <img
+                  alt="top albums of ar2"
+                  src={undefined}
+                />
+              </a>
+            </div>
+            <div
+              className="col-xs-12 col-sm-8"
+            >
+              <h3>
+                ar2
+              </h3>
+              <p>
+                <strong>
+                  Listener: 
+                </strong>
+                3
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div
+        className="row"
+      >
+        <ul
+          className="pagination"
+        >
+          <li
+            className="disabled"
+            style={undefined}
+          >
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button"
+              style={
+                Object {
+                  "pointerEvents": "none",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                aria-label="First"
+              >
+                «
+              </span>
+            </a>
+          </li>
+          <li
+            className="disabled"
+            style={undefined}
+          >
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button"
+              style={
+                Object {
+                  "pointerEvents": "none",
+                }
+              }
+              tabIndex={-1}
+            >
+              <span
+                aria-label="Previous"
+              >
+                ‹
+              </span>
+            </a>
+          </li>
+          <li
+            className="active"
+            style={undefined}
+          >
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              1
+            </a>
+          </li>
+          <li
+            className=""
+            style={undefined}
+          >
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              2
+            </a>
+          </li>
+          <li
+            className=""
+            style={undefined}
+          >
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              3
+            </a>
+          </li>
+          <li
+            className=""
+            style={undefined}
+          >
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              <span
+                aria-label="Next"
+              >
+                ›
+              </span>
+            </a>
+          </li>
+          <li
+            className=""
+            style={undefined}
+          >
+            <a
+              href="#"
+              onClick={[Function]}
+              role="button"
+            >
+              <span
+                aria-label="Last"
+              >
+                »
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

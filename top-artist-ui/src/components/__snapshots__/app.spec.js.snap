@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-xs-offset-0 col-sm-offset-2 col-xs-12 col-sm-8"
+  >
+    <div>
+      Children of the App
+    </div>
+  </div>
+</div>
+`;

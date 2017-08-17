@@ -31,7 +31,7 @@ export default class TopArtistsComponent extends Component {
       this.handleSearch(nextProps.query);
     }
   }
-
+  
   render() {
     const { query, topArtists, searchInFlight } = this.props;
     const { artists, attr } = topArtists;
@@ -50,16 +50,16 @@ export default class TopArtistsComponent extends Component {
                 {
                   artists.filter((artist, index) => (artists.length - index) <= 5 ).map((artist, index) => (
                     <li className="list-group-item row" key={`li-${index}`}>
-                    <TopArtistItem  {...artist} />
-                  </li>
-                ))
-              }
-            </ul>
-            <Paginator totalPages={attr.totalPages} page={attr.page || page} handleSelect={this.handlePageChange}/>
-          </div>
-        )}
+                      <TopArtistItem  {...artist} />
+                    </li>
+                  ))
+                }
+              </ul>
+              <Paginator totalPages={attr.totalPages} page={attr.page || page} handleSelect={this.handlePageChange}/>
+            </div>
+          )}
+        </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
 }
