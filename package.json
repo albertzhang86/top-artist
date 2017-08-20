@@ -7,6 +7,9 @@
     "start": "concurrently \"npm start --prefix top-artist-ui\" \"npm start --prefix top-artist-api\"",
     "postinstall": "cd top-artist-ui && npm install && cd ../top-artist-api && npm install"
   },
+  "config": {
+    "node-version": "8.2.1"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {

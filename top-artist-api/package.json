@@ -11,6 +11,9 @@
     "start": "nodemon ./app.js",
     "test": "gulp test"
   },
+  "config": {
+    "node-version": "8.2.1"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-file": "^0.3.0",
