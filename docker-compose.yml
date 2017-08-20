@@ -1,18 +1,8 @@
-version: '3'
-services:
-  ta-ui:
-    image: ta-ui:latest
-    ports:
-      - "3000:3000"
-      - "8080:8080"
-    networks:
-      - default
-  ta-api:
-    image: ta-api:latest
-    ports:
-      - "3002:3002"
-    networks:
-      - default
-networks:
-  default:
-    driver: bridge
+web:
+  build: .
+  volumes:
+    - "/usr/src/app/"
+  ports:
+    - "5000:8080"
+    - "3000:3000"
+  command: npm run serve-build
