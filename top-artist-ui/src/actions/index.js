@@ -8,7 +8,6 @@ export function searchTopArtists(query) {
 }
 
 export function receiveArtists(response) {
-  console.log(response);
   return {
     type: actionTypes.RECEIVED_TOP_ARTISTS,
     topArtists: response.topartists
