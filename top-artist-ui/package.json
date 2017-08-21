@@ -29,9 +29,11 @@
     "redux-mock-store": "^1.2.3"
   },
   "proxy": "http://localhost:3002",
-  "config": {
-    "node-version": "8.2.1"
+  "engines" : {
+    "node" : ">=8.2.1",
+    "npm": ">=5.3.0"
   },
+  "engineStrict" : true,
   "scripts": {
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",

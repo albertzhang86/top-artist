@@ -7,9 +7,11 @@
     "start": "concurrently \"npm start --prefix top-artist-ui\" \"npm start --prefix top-artist-api\"",
     "postinstall": "cd top-artist-ui && npm install && cd ../top-artist-api && npm install"
   },
-  "config": {
-    "node-version": "8.2.1"
+  "engines" : {
+    "node" : ">=8.2.1",
+    "npm": ">=5.3.0"
   },
+  "engineStrict" : true,
   "author": "",
   "license": "ISC",
   "devDependencies": {
