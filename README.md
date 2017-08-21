@@ -1,6 +1,6 @@
 # [Top Artist](https://github.com/albertzhang86/top-artist/)
 
-[![Codeship Status for Top Artist](https://codeship.com/projects/241235/status?branch=master)](https://codeship.com/projects/241235)
+[![Codeship Status for Top Artist](https://app.codeship.com/projects/fa1e45a0-682d-0135-ef0f-0ed54c158a94/status?branch=master)](https://codeship.com/projects/241235)
 
 ## Environment Requirement
 
