@@ -1,0 +1,8 @@
+web:
+  build: .
+  volumes:
+    - "/usr/src/app/"
+  ports:
+    - "5000:8080"
+    - "3000:3000"
+  command: npm run serve-build

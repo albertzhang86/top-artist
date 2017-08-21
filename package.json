@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "concurrently \"npm start --prefix top-artist-ui\" \"npm start --prefix top-artist-api\"",
-    "postinstall": "cd top-artist-ui && npm install && cd ../top-artist-api && npm install"
+    "postinstall": "concurrently \"npm i --prefix top-artist-ui\" \"npm i --prefix top-artist-api\"",
+    "serve-build": "concurrently \"npm run serve-build --prefix top-artist-ui\" \"npm start --prefix top-artist-api\""
   },
   "engines" : {
     "node" : ">=8.2.1",
