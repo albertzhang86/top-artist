@@ -1,3 +1,7 @@
+# [Top Artist](https://github.com/albertzhang86/top-artist/)
+
+[![Codeship Status for Top Artist](https://codeship.com/projects/241235/status?branch=master)](https://codeship.com/projects/241235)
+
 ## Environment Requirement
 
 node v8.2~
